@@ -31,7 +31,7 @@ if ($message !== false) {
 <form method="post">
 <p><label for="guess">Enter your guess</label>
 <input type="text" name="guess" id="guess"
-value="<?= htmlentities($oldguess) ?>"></p>
-<input type="submit" value="Guess">
+value="<?= htmlentities($oldguess) ?>" /></p>
+<input type="submit" value="Guess" />
 </form>
 </html>
